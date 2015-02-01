@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.author             = { "Mark Adams" => "mark.adams86@gmail.com" }
   s.social_media_url   = "http://twitter.com/hyperspacemark"
   s.source       = { :git => "https://github.com/hyperspacemark/Reactor.git", :tag => s.version.to_s }
-  s.source_files  = "Classes/**/*.{h,m}"
+  s.source_files  = "Reactor/Classes", "Reactor/Classes/**/*.{h,m}"
   s.requires_arc = true
 end
