@@ -24,6 +24,7 @@
 		385515171F0797EB168E208C /* Reactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4048166C1DCAB7CEA8DFC456 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		41B7885AA1A0AA52CB5758E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D0DED9D1A7E17AD008F71A0 /* Reactor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reactor.h; sourceTree = "<group>"; };
 		89302447E2CA7CBAC0FF2490 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD886D4545927A26E63CCC6 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +123,7 @@
 		C6C0964B8EAA01F0ECB8166A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4D0DED9D1A7E17AD008F71A0 /* Reactor.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
