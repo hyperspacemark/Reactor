@@ -1,15 +1,16 @@
 Pod::Spec.new do |s|
   s.name         = "Reactor"
   s.version      = "0.1.0"
-  s.summary      = "A short description of Reactor."
+  s.summary      = "ReactiveCocoa wrappers for Apple frameworks"
 
   s.description  = <<-DESC
-                   A longer description of Reactor in Markdown format.
+                   Reactor is a collection of ReactiveCocoa wrappers for Apple
+                   frameworks.
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   Apple frameworks use a variety of patterns for communicating
+                   between various objects including target/action, KVO,
+                   notifications, blocks and delegation. Reactor aims to unify
+                   these communication methods with ReactiveCocoa signals.
                    DESC
 
   s.homepage     = "http://www.markada.ms/reactor"
@@ -19,4 +20,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/hyperspacemark/Reactor.git", :tag => s.version.to_s }
   s.source_files  = "Reactor/Classes", "Reactor/Classes/**/*.{h,m}"
   s.requires_arc = true
+  s.dependency 'ReactiveCocoa', '~> 2.0'
 end
